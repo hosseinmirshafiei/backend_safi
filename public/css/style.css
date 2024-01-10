@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'IransansWeb';
+    src: url('../fonts/IRANSansWeb(FaNum).woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'font_logo';
+    src: url('../fonts/Digikala.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'badr';
+    src: url('../fonts/badr.woff') format('woff');
+}
+body , button{
+    font-family: IransansWeb;
+}
+a{
+    text-decoration: none;
+}
+
+/* result payment call back style page */
+.result_call_back_payment_parent {
+
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.result_call_back_payment_parent .content {
+    background: rgb(255, 255, 255);
+    width: 490px !important;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(232 232 232);
+}
+
+.result_call_back_payment_parent .result {
+    margin-bottom: 10px;
+
+}
+
+.result_call_back_payment_parent .result .success {
+
+    color: rgb(28, 92, 28);
+}
+
+.result_call_back_payment_parent .result .error {
+
+    color: #d26363;
+}
+
+.result_call_back_payment_parent .amount {
+
+    margin-bottom: 10px;
+}
+
+.result_call_back_payment_parent .title {
+    color: #000000;
+    font-size: 16px;
+}
+
+.result_call_back_payment_parent .price {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 4px;
+}
+
+.result_call_back_payment_parent .toman {
+    color: #2f2f2f;
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 4px;
+}
+
+.result_call_back_payment_parent .date_parent .title {
+
+    font-size: 13px;
+    color: #424242;
+}
+
+.result_call_back_payment_parent .date_parent .date {
+
+    font-size: 14px;
+    color: #1c1c1c;
+    padding-right: 10px;
+}
+
+.result_call_back_payment_parent .dargah_parent {
+    margin-right: -18px;
+}
+
+.result_call_back_payment_parent .dargah_parent .title {
+    font-size: 13px;
+    color: #424242;
+}
+
+.result_call_back_payment_parent .dargah_parent .dargah {
+    font-size: 13px;
+    color: #2c2c2c;
+    padding-right: 10px;
+}
+
+.result_call_back_payment_parent .back_amount {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 14px;
+}
+
+.result_call_back_payment_parent .payment_btn {
+    margin-top: 30px;
+}
+
+.result_call_back_payment_parent .detail_order {
+    margin-top: 20px;
+}
+
+.result_call_back_payment_parent .detail_order a {
+    background: #5da280;
+    color: white;
+    font-size: 13px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.payment_btn .back_to_site{
+    background-color: rgb(77 86 106);
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+    .result_call_back_payment_parent .content {
+
+        width: 95% !important;
+    }
+}
